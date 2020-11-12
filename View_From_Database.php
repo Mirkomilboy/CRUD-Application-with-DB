@@ -97,6 +97,7 @@ require_once("Include/DB.php");
                 <td> <a href="Delete.php?id=<?php echo $Id; ?>">Delete</a></td>
             </tr>
                 <?php } ?>
-        </table>
+        </table><br><br>
+        <a href="Insert_DB.php" target="_blank" style="padding-left:300px;">Create New Data</a>
 </body>
 </html>
